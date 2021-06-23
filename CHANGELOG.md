@@ -13,6 +13,7 @@
 
 ## Changes since v7.1.3
 
+- [#1251](https://github.com/oauth2-proxy/oauth2-proxy/pull/1251) Add safety checks to OIDC session fields during refresh (@NickMeves)
 - [#1086](https://github.com/oauth2-proxy/oauth2-proxy/pull/1086) Refresh sessions before token expiration if configured (@NickMeves)
 - [#1226](https://github.com/oauth2-proxy/oauth2-proxy/pull/1226) Move app redirection logic to its own package (@JoelSpeed)
 - [#1128](https://github.com/oauth2-proxy/oauth2-proxy/pull/1128) Use gorilla mux for OAuth Proxy routing (@JoelSpeed)
